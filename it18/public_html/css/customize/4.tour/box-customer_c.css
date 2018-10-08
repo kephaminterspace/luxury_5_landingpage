@@ -1,0 +1,28 @@
+#tour .group-tour {
+    margin: 30px 0;
+}
+
+#tour .group-tour .row {
+    display: table;
+    margin: 0 auto;
+}
+
+/*---View Christmas Offer Button*/
+#header-banner div.heading{
+	margin-top: 170px;
+}
+
+#header-banner div.button{
+
+}
+#header-banner a#xmas-button:hover{
+	background-color: #d43734;
+	color: white;
+	transition: all 0.5s;
+}
+
+#header-banner div.button p{
+	margin:0;
+	color: white;
+	font-size: 22px;
+}

@@ -1,0 +1,13 @@
+.label {
+    margin-left: -7px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+}
+.input .item {
+    padding-top: 5px;
+    float: left;
+    margin-left: 15px;
+}

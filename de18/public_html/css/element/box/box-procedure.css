@@ -1,0 +1,69 @@
+.box-procedure {
+
+}
+.box-procedure .image {
+    height: 210px;
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.box-procedure .image .circle {
+    position: relative;
+    height: 140px;
+    width: 140px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.box-procedure .image .circle img:first-child {
+    position: absolute;
+    top: 36px;
+    left: 36px;
+}
+
+.box-procedure .image .circle .number {
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 12px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    background-color: #F9E8CD;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+.box-procedure p {
+    margin-top: 20px;
+    color: white;
+}
+.box-procedure .image:hover{
+    cursor: pointer;
+}
+.box-procedure .image:hover p{
+    color: #fab325;
+}
+.box-procedure .image:hover .circle{
+    border-color: #fab325;
+}
+#xprocedure .box-procedure:nth-child(1):hover .circle img{
+    content: url("../../../img/6.procedure/active/logistics-verification-square-ultrathin-outline.png");
+}
+#xprocedure .box-procedure:nth-child(3):hover .circle img{
+    content: url("../../../img/6.procedure/active/delivery-time.png");
+}
+#xprocedure .box-procedure:nth-child(5):hover .circle img{
+    content: url("../../../img/6.procedure/active/settings.png");
+}
+#xprocedure .box-procedure:nth-child(7):hover .circle img{
+    content: url("../../../img/6.procedure/active/profits.png");
+}
+#xprocedure .box-procedure:nth-child(9):hover .circle img{
+    content: url("../../../img/6.procedure/active/sunbed.png");
+}
+.box-procedure .image:hover .number{
+    background-color: #fab325;
+}

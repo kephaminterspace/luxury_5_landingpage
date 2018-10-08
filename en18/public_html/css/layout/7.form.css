@@ -1,0 +1,58 @@
+#form {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+#form .background {
+    background-image: url(../../img/7.form/world-map-png-6.png);
+    background-repeat:repeat; 
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .2;
+    width: 90%;
+    margin: 0 auto;
+}
+#form .recommendation {
+    margin: 10px 0;
+}
+#form .recommendation .head {
+    display: table;
+    margin: 0 auto;
+}
+#form .recommendation .head img{
+    float: left;
+}
+#form .text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+#form .recommendation .head p {
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#form .text p {
+    text-align: center;
+    padding: 10px;
+}
+#form form {
+    padding: 20px 0;
+}
+#form form p {
+    display: inline;
+}
+
+#form form .input input {
+    border: 1px solid #cccccc;
+}
+
+.button {
+    text-align: center;
+}

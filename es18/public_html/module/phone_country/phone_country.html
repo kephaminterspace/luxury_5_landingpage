@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="build/css/intlTelInput.css">
+        <!--<link rel="stylesheet" href="build/css/demo.css">-->
+
+    </head>
+    <body>
+       
+        <form>
+            <input id="phone" type="tel">
+        </form>
+
+        <script src="source/jquery.min.js"></script>
+        <script src="build/js/intlTelInput.js"></script>
+        <script>
+            $("#phone").intlTelInput({
+                // allowDropdown: false,
+                // autoHideDialCode: false,
+                // autoPlaceholder: "off",
+                // dropdownContainer: "body",
+                // excludeCountries: ["us"],
+                // formatOnDisplay: false,
+                // geoIpLookup: function(callback) {
+                //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                //     var countryCode = (resp && resp.country) ? resp.country : "";
+                //     callback(countryCode);
+                //   });
+                // },
+                // initialCountry: "auto",
+                // nationalMode: false,
+                // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+                 placeholderNumberType: "MOBILE",
+                // preferredCountries: ['cn', 'jp'],
+                // separateDialCode: true,
+                utilsScript: "build/js/utils.js"
+            });
+        </script>
+
+    </body>
+</html>

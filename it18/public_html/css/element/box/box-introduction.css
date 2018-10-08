@@ -1,0 +1,24 @@
+#introduction .group-introduction {
+    padding: 30px;
+}
+#introduction .group-introduction .box-introduction{
+    padding: 10px;
+   
+}
+#introduction .group-introduction .box-introduction .icon {
+    width: 145px;
+    height: 145px;
+    padding: 30px;
+    margin: 0 auto;
+}
+#introduction .group-introduction .box-introduction .content {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#introduction .group-introduction .box-introduction .content h3 {
+    text-transform: uppercase;
+    color: #fab325;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

@@ -1,0 +1,65 @@
+#tour .box-tour {
+    padding: 15px 0;
+    margin: 0 auto;
+}
+#tour .box-tour .left {
+    overflow: hidden;
+}
+
+#tour .box-tour .left img {
+    width: 100%;
+    height: 230px;
+}
+#tour .box-tour .right {
+    background-color: #353535;
+    color: white;
+    padding: 0px 8px 20px 15px;  
+    height: 230px;
+    width: 100%;
+}
+#tour .box-tour .right p {
+    font-size: 14px;
+    font-family: 'proxima_nova_ltthin', Georgia, sans-serif;
+    font-weight: 800;
+    max-height: 45px;
+}
+
+#tour .box-tour .right .price p {
+    font-size: 24px;
+    font-family: 'proxima_nova_altblack', Georgia, sans-serif;
+    font-weight: 800;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+#tour .box-tour .right h3 {
+    padding-top: 15px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 40px;
+    height: 20px;
+}
+#tour .box-tour .right .time *{
+    display: inline-block;
+    margin-bottom: 12px;
+}
+#tour .box-tour .right .time .icon {
+    position: absolute;
+
+}
+#tour .box-tour .right .time p {
+    margin-left: 35px;
+    font-size: 14px;
+    font-style: italic;
+    color: #fab325;
+}
+#tour .box-tour .right .price {
+    margin: 16px 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 44px;
+    color: #fab325;
+}
+#tour .box-tour .right .button {
+    text-align: left;
+}

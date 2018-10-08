@@ -1,0 +1,5 @@
+#procedure .group-procedure .box-procedure:first-child .image .circle img:first-child {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}

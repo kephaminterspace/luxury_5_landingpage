@@ -1,0 +1,194 @@
+.custom_input{
+    height: 50px;
+    background: #fff;
+    border:  1px solid #cccccc;
+    padding: 0 15px;
+    border-radius: 0;
+}
+
+#form form .input input:not(#phone){
+    padding: 0 15px;
+}
+
+label{
+    color: #333;
+    font-weight: 400;
+}
+
+.row{
+    margin-bottom: 15px;
+}
+
+
+#date_input .input-group{
+    height: 50px;
+    background: #fff;
+    border-radius: 0;
+}
+
+#date_input .input-group input{
+    height: 50px;
+    background: #fff;
+    border-radius: 0;
+    z-index: 0;
+}
+
+#date_input .input-group .input-group-addon{
+    border-radius: 0;
+    background: #fff;
+}
+
+.select_input .form-control{
+    height: 50px;
+    background: #fff;
+    border:  1px solid #cccccc;
+    padding:15px;
+    border-radius: 0;
+}
+
+.select_input .selectbox-caret{
+    margin-right: -10px !important;
+}
+
+.input .bootstrap-select{
+    width: 100% !important;
+}
+
+.input .bootstrap-select> button{
+    background: #fff;
+    height: 50px;
+    border-radius: 0;
+
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret{
+    right: 5px !important;
+}
+
+#holiday{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.button.inquiry{
+    margin-top: -15px;
+}
+
+.btn-rectangle{
+    display: inline-block;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #353535;
+    line-height: 50px;
+    background-color: #fab325;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.btn-radius{
+    border: none;
+}
+
+
+.slide_topic{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.slide_topic .li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: #555;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.slide_topic .li:hover{
+    cursor: pointer;
+}
+
+.slide_topic .li.active{
+    background-color: #FFC107;
+}
+
+#customer .box-customer .row .left img {
+    width: 130px;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    height: 130px;
+}
+
+.container_huyhieu{
+    position: relative;
+}
+
+.container_huyhieu .huyhieu{
+    position: absolute;
+    right: 0;
+    bottom: -85px;
+    z-index: 3;
+}
+
+#hightlight{
+    background-color: #fab325;
+}
+
+#content_customer .descr{
+    color: #777;
+    height: 110px;
+}
+
+
+.img_hightlight{
+    width: 56px;
+    height: 56px;
+    background: #fff;
+}
+
+
+
+@media only screen and (max-width:768px){
+    #map_vietnam .button button{
+        position: relative !important;
+        margin-bottom: 30px !important;
+    }
+    #customer .box-customer {
+        height: 100% !important;
+    }
+
+    #customer{
+        padding-bottom: 15px !important;
+    } 
+
+
+    #specialoffer h2{
+        width: 250px !important;
+    }
+    #tour_include h2{
+        width: 230px !important;
+    }
+
+    #customer .box-customer{
+        margin-top: -60px !important;
+    }
+
+    #benefit .right h2{
+        margin-top: 0 !important;
+    }
+    
+    #content_customer .descr{
+        height: 360px !important;
+    }
+
+    #popup_content{
+        width: 90% !important;
+    }
+}
+

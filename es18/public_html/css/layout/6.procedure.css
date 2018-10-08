@@ -1,0 +1,29 @@
+#procedure {
+    background-image: url("../../img/6.procedure/Layer_1.jpg");
+    padding: 20px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#procedure h2 {
+    font-size: 32px;
+    color: #fab325;
+    margin-bottom: 40px;
+}
+#procedure p {
+    text-align: center;
+    margin-top: 15px;
+}
+#procedure .heading {
+    max-width: 700px;
+    margin: 0 auto;
+}
+#procedure .heading p {
+    color: white;
+    font-family: 'proxima_nova_ltthin', Georgia, sans-serif;
+    font-weight: bold;
+}
+#procedure .group-procedure {
+    display: table;
+    margin: 60px auto;
+}
+

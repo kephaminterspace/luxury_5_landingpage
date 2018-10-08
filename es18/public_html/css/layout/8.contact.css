@@ -1,0 +1,16 @@
+#contact {
+    margin: 10px 20px;
+}
+#contact .contact{
+    background-image: url("../../img/8.contact/contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+#contact .contact h2 {
+    color: black;
+    font-size: 30px;
+}
+#contact .contact .address {
+    margin: 20px 0;
+}

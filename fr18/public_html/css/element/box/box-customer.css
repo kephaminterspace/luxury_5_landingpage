@@ -1,0 +1,62 @@
+#customer .box-customer {
+    padding: 20px;
+    text-align: center;
+    padding-top: 50px;
+    height: 300px;
+}
+
+#customer{
+    padding-bottom: 15px !important;
+}
+
+
+#customer .box-customer .row {
+    display: inline-block;
+    margin: 0 auto;
+}
+#customer .box-customer .row .left{
+    position: relative;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#customer .box-customer .row .left .cover {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+}
+#customer .box-customer .row .left img{
+    width: 100%;
+}
+#customer .box-customer .row .center {
+    text-align: left;
+    padding: 20px;
+    margin-top: -30px;
+}
+#customer .box-customer .row .center h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#customer .box-customer .row .center .k_c{
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+#customer .box-customer .row .center .k_c i{
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+#customer .box-customer .row .right .image {
+    width: 100%;
+    overflow: visible;
+}
+#customer .box-customer .row .right .image img {
+    width: 140px;
+}
+

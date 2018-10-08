@@ -1,0 +1,26 @@
+﻿Hi, my name is Duong! // Bold - 35pt
+
+I am Travel Consultant of Luxury Travel. Southeast Asia is the charming land, full of surprises and I believe you will never regret visitng here. Lets make your journey be a blockbuster, you are the main character and create your own story. // Regular - 16pt
+
+Please fill out the form below and we will reply you within 24 hours.
+
+Last name (*)
+First name (*)
+Email (*)
+Telephone   (We will call you back for free)
+Nationality
+Destinations (*)
+Duration of the trip (*)
+Departure date (*)
+Im flexible on the date 
+The number of people (*)
+Travel Style (*)
+Accomodation category (*)
+Budget
+
+Please let us know your favorite holiday
+
+Send inquiry // Bold - 18pt
+
+
+Send inquiry

@@ -1,0 +1,33 @@
+
+/*chung*/
+#header-banner {
+    background-image: url("../../img/1.header_banner/2.banner/banner.png");
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+/*text*/
+#header-banner .top {
+    min-height: 150px;
+}
+#header-banner .heading h1, h2 {
+    color: white;
+    text-align: center;
+    line-height: 1em;
+}
+#header-banner .heading {
+    margin-top: 50px;
+}
+@import url(../resource/cantana_one.css);
+#header-banner .heading h1 {
+    font-size: 24px;
+    font-family: 'proxima_nova_altblack', Georgia, sans-serif;
+    text-transform: uppercase;
+}
+#header-banner .heading h2 {
+     font-family: 'proxima_nova_ltsemibold', Georgia, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+}

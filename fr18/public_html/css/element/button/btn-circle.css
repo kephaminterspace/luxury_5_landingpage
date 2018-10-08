@@ -1,0 +1,14 @@
+.btn-circle {
+    display: inline-block;
+    color: white;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    text-align: center;   
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+.btn-circle i {
+    font-size: 20px;
+    line-height: 1.45em;
+}

@@ -1,0 +1,12 @@
+#introduction .box-introduction:nth-child(3) .icon {
+    position: relative;
+}
+
+#introduction .box-introduction:nth-child(3) .icon img {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+#introduction .row {
+    display: inline-block;
+}

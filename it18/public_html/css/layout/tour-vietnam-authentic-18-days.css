@@ -1,0 +1,42 @@
+.tour-vietnam-authentic-18-days{
+    background: url(../../img/banner/tour-vietnam-authentic-18-days.jpg)  no-repeat center !important;
+    background-size: cover !important;
+}
+
+#map_vietnam label {
+    font-size: 14px;
+    position: relative;
+    line-height: 1.5;
+    padding-left: 50px;
+}
+
+#map_vietnam .map_footer {
+    margin-top: 0px; 
+}
+
+#map_vietnam .button button {
+    position: absolute;
+    right: 15px;
+    bottom: -10px;
+}
+
+#map_vietnam .mapvn img {
+    height: 700px;
+}
+
+#map_vietnam .input .item input[type="checkbox"] + label:before {
+    border: 3px solid #a91717;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0px;
+    top: 3px;
+}
+
+#map_vietnam .input .item {
+    margin: 10px 0;
+}
+
+#map_vietnam .checkbox_map {
+    margin-top: 0px;
+}

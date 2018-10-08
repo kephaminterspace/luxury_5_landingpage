@@ -1,0 +1,26 @@
+#benefit {
+    padding: 30px;
+}
+#benefit .row {
+    display: table;
+}
+#benefit .left {
+    overflow: hidden;
+}
+
+#benefit .left img {
+    width: 100%;
+}
+#benefit .right h2 {
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    font-family: 'proxima_nova_altblack', Georgia, sans-serif;
+    line-height: 1.2em;
+    margin-bottom: -25px;
+}
+#benefit .right .btn-arrow {
+    padding: 14px 20px;
+}

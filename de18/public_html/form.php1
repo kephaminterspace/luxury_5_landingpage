@@ -1,0 +1,281 @@
+
+    <div id="form">
+        <div class="background"></div>
+        <div class="recommendation">
+            <div class="head">
+                <img src="tieng_duc/tour/supporter.png" alt="avatar"/>
+                <p>Hallo, Mein Name ist Hoa!</p>
+            </div>
+        </div>
+        <div class="text">
+            <p>
+                Ich bin Reiseberaterin für Luxury Travel. Südostasien ist eine bezaubernde Region vollerzauberhafter Überraschungen. Sie werden Ihre Reise nicht vergessen. Sie stehen im Mittelunktder Reise und schreiben dabei Ihre eigene Geschichte.
+                (Lassen Sie uns Ihre Reise zu einen Blockbuster machen.  Sie sind Hauptfigur und schaffen Ihre Geschichte.)
+            </p>
+            <p>
+                Bitte füllen Sie das Formular aus und wir werden Ihnen innerhalb von 24 Stunde antworten.
+            </p>
+        </div>
+        <!--group-form-->
+        <form class="container" method="post" action="control.php" id="submit_form">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <!--last_name-->
+                    <div class="label">
+                        <label for="last_name">Nachname</label>
+                        <p class="red">(*)</p>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="last_name" name="last_name" required oninvalid="setCustomValidity('Ihr Name ist obligatorisch')" oninput="setCustomValidity('')">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!--first_name-->
+                    <div class="label">
+                        <label for="first_name">Vorname</label>
+                        <p class="red">(*)</p>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="first_name" name="first_name" required oninvalid="setCustomValidity('Ihr Vorname ist obligatorisch')" oninput="setCustomValidity('')">
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <!--email-->
+                    <div class="label">
+                        <label for="email">Email</label>
+                        <p class="red">(*)</p>
+                    </div>
+                    <div class="input">
+                        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" oninvalid="setCustomValidity('Email ist nicht im richtigen Format')" oninput="setCustomValidity('')">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!--telephone-->
+                    <div class="label">
+                        <label for="phone">Telefon</label>
+                        <p class="red">(Wir rufen Sie kostenlos zurück)</p>
+                    </div>
+                    <div class="input">
+                        <input type="tel" id="phone" name="telephone">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <!--nationality-->
+                    <!--chua_lam-->
+                    <div class="label">
+                        <label for="nationality">Herkunftsland</label>
+
+                    </div>
+                    <div class="input">
+                        <select  class="form-control bfh-countries custom_input" data-country="US" name="countries"></select>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+            <div class="margin15"></div>
+
+            <div class=" row">
+
+                <div class="input">
+                    <!--destinations-->
+                    <div class="item label">
+                        <label for="destinations">Reiseziele </label>
+                        <p class="red">(*)</p>
+                    </div>
+                    <!--1.vn-->
+                    <div class="item">
+                        <input type="checkbox" id="vietnam" value="vietnam" calss="softappver" name="destinations[]">
+                        <label for="vietnam">Vietnam</label>
+                    </div>
+
+                    <!--2.cam-->
+                    <div class="item">
+                        <input type="checkbox" id="cambodia" value="cambodia" calss="softappver" name="destinations[]">
+                        <label for="cambodia">Kambodscha</label>
+
+                    </div>
+                    <!--3.lao-->
+                    <div class="item">
+                        <input type="checkbox" id="laos" value="laos" calss="softappver" name="destinations[]">
+                        <label for="laos">Laos</label>
+
+                    </div>
+                    <!--4.mya-->
+                    <div class="item">
+                        <input type="checkbox" id="myanmar" value="myanmar" calss="softappver" name="destinations[]">
+                        <label for="myanmar">Myanmar</label>
+
+                    </div>
+                    <!--5.thai-->
+                    <div class="item">
+                        <input type="checkbox" id="thailand" value="thailand" calss="softappver" name="destinations[]">
+                        <label for="thailand">Thailand</label>
+
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <!--email-->
+                    <div class="label">
+                        <label for="duration">Reisedauer</label>
+                        <p class="red">(*)</p>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="duration"  placeholder="14 nights" name="duration" required oninvalid="setCustomValidity('Die Reisedauer ist obligatorisch')" oninput="setCustomValidity('')">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!--email-->
+                    <div class="label">
+                        <label for="departure">Anreisetag</label>
+                        <p class="red">(*)</p>
+                    </div>
+                    <div class="input">
+                        <div id="date_input" class="bfh-datepicker " data-format="y-m-d" data-date="today" data-name="date" required oninvalid="setCustomValidity('Abreisetag ist obligartorisch')" oninput="setCustomValidity('')">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!--email-->
+                    <div class="label">
+                        <label for="flexible">Ich kann an diesem Tag flexibel anreisen</label>
+                        <p class="red">(*)</p>
+                    </div>
+                    <div class="input">
+                        <select class="selectpicker" name="flexible">
+                            <option>Ja</option>
+                            <option>Nein</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-9 ">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!--email-->
+                            <div class="label">
+                                <label for="people">Anzahl der Reisenden</label>
+                                <p class="red">(*)</p>
+                            </div>
+                            <div class="input">
+                                <input type="number" placeholder="Erwachsene" id="people" name="adult" required oninvalid="setCustomValidity('Erwachsene sind obligatorisch')" oninput=setCustomValidity('') min="1">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!--email-->
+                            <div class="label">
+                                <label >&nbsp;</label>
+                                <p class="red"></p>
+                            </div>
+                            <div class="input">
+                                <input type="number" placeholder="Kinder über 12 Jahre alt" name="children_above" min="0" oninput=setCustomValidity('')>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!--email-->
+                            <div class="label">
+                                <label>&nbsp;</label>
+                                <p class="red"></p>
+                            </div>
+                            <div class="input">
+                                <input type="number" placeholder="Kinder unten 12 Jahre alt" name="children_below" min="0" oninput=setCustomValidity('')>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+            <div class="row ">
+                <div class="col-md-4">
+                    <!--email-->
+                    <div class="label">
+                        <label for="travel">Reisestil</label>
+                        <p class="red">(*)</p>
+                    </div>
+                    <div class="input">
+                        <select class="selectpicker" multiple name="travel_style[]" required oninvalid="setCustomValidity('Reisestil ist obligatorisch')" onchange="setCustomValidity('')">
+                            <option >Strandurlaub</option>
+                            <option selected>Kultur</option>
+                            <option >Geschichte</option>
+                            <option >Sehenwürdigkeiten</option>
+                            <option >abseits vom Touristenrummel</option>
+                            <option >Hochzeitreisen</option>
+                            <option selected>Natur</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!--email-->
+                    <div class="label">
+                        <label for="accommodation">Unterkunft</label>
+                        <p class="red">(*)</p>
+                    </div>
+                    <div class="input">
+                        <select class="selectpicker" name="start">
+                            <option>3 Sterne</option>
+                            <option selected>4 Sterne</option>
+                            <option>5 Sterne</option>
+                            <option>Luxus</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!--email-->
+                    <div class="label">
+                        <label for="budget">Budget</label>
+                        <p class="red"></p>
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="USD pro person" name="budget">
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12">
+                    <!--email-->
+                    <div class="label">
+                        <label for="holiday">Sagen Sie uns Ihren Lieblingsurlaub bitte</label>
+                        <p class="red"></p>
+                    </div>
+                    <div class="input">
+                        <textarea rows="6" placeholder="Ihre gewünschte Reiseziele, Ihre beliebste Aktivitäten" id='holiday' name="holiday"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="cappcha" >
+                    <div  class="form-group">
+                        <!-- Replace data-sitekey with your own one, generated at https://www.google.com/recaptcha/admin -->
+                        <div class="g-recaptcha" data-sitekey="6Le0-xsUAAAAAEXbN_NoWxbzyuLKmwpH1-rK-6TV"></div>
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" id="tour_src" name="tour_src" value=""/>
+            <input type="hidden" id="tour_href" name="tour_href" value=""/>
+            <input type="hidden" id="tour_text" name="tour_text" value=""/>
+            <input type="hidden" id="before_telephone" name="before_telephone" value="+84:">
+            <button id="submit" style="display:none;">Anfrage senden</button>
+
+        </form>
+
+        <div class="clear-fix"></div>
+        <!--group-form_chua_xong-->
+        <div class="button inquiry">
+            <a class="btn-rectangle" style="cursor: pointer;">Anfrage senden</a>
+        </div>
+
+    </div>
+
